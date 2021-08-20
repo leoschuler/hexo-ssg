@@ -6,10 +6,10 @@
 
         <section class="main">
             <% page.posts.forEach(function(item, index) { %>
-                <%- partial('_partial/article-short', {item: item, index: index}) %>
+                <%- partial('_partial/article-long', {item: item, index:index}) %>                
             <% }); %>
         </section>
     </div>
 </div>
 
-<%- partial('_partial/pagination') %>
+
